@@ -1,3 +1,7 @@
+package DesafioBodas;
+
+import DesafioBodas.EnumBodas;
+
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
@@ -22,13 +26,13 @@ public class Bodas {
     }
     public static String getBodas(long anos){
         switch ((int) anos){
-            case 1:  return "Bodas de Papel";
-            case 5: return "Bodas de Madeira ou Ferro";
-            case 10: return "Bodas de Estanho";
-            case 15: return "Bodas de Cristal";
-            case 30: return "Bodas de Pérola";
-            case 40: return "Bodas de Esmeralda";
-            case 50: return "Bodas de Ouro";
+            case 1:  return "DesafioBodas.Bodas de Papel";
+            case 5: return "DesafioBodas.Bodas de Madeira ou Ferro";
+            case 10: return "DesafioBodas.Bodas de Estanho";
+            case 15: return "DesafioBodas.Bodas de Cristal";
+            case 30: return "DesafioBodas.Bodas de Pérola";
+            case 40: return "DesafioBodas.Bodas de Esmeralda";
+            case 50: return "DesafioBodas.Bodas de Ouro";
             default: return "Não é ano de bodas, mas continue firme";
         }
     }
